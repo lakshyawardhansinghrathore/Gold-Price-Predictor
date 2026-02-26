@@ -1,27 +1,37 @@
-# Byte-compiled / optimized files
+# Byte-compiled files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Model files (don't track large files)
-*.pkl
-*.joblib
-best_gold_predictor.pkl
-gold_scaler.pkl
-
-# Environment variables
+# Environments
 .env
 .venv/
-env/
 venv/
+ENV/
 
-# Jupyter
+# Jupyter/IPython
 .ipynb_checkpoints/
+Untitled*.ipynb
+*.ipynb
 
-# Logs
-logs/
-*.log
+# VS Code
+.vscode/
+.project_browser*
 
-# OS
+# Conda/Anaconda
+Profile.yaml
+conda.yaml
+environment.yml
+
+# Docker
+Dockerfile*
+docker*
+.dockerignore
+
+# Data/Notebooks (too big)
+Gold*.csv
+*.parquet
+
+# OS generated
 .DS_Store
 Thumbs.db
